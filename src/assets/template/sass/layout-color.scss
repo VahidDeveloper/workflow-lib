@@ -1,0 +1,104 @@
+$ng-main-orange :#EF5927;
+$ng-main-dark-gray:#2C2C2C;
+$ng-main-gray:#5E5E5E;
+$ng-main-light-gray:#CACCCC;
+$ng-white:#FFFFFF;
+$ng-bg-1:#F3F3F3;
+$ng-bg-2:#ECEEEC;
+$ng-bg-3:#CFD1D7;
+$ng-h-blue:#284C95;
+$ng-purple:#be2edd;
+$ng-yellow:#f9ca24;
+$ng-orange:#f0932b;
+$ng-blue:#0984e3;
+$ng-green:#6ab04c;
+$ng-gray:#535c68;
+$ng-red:#eb4d4b;
+/*-----------------*/
+$ng-page-title-border:#ebedf2;
+
+body {
+  background-color: $ng-main-gray !important;
+}
+
+
+.k-pager-numbers .k-link.k-state-selected {
+  color: $ng-main-orange !important;
+  background-color: rgba(255, 99, 88, .2);
+}
+
+.k-pager-wrap .k-link {
+  color: $ng-main-gray;
+}
+
+.bg-purple {
+  background-color: $ng-purple !important;
+}
+
+.bg-yellow {
+  background-color: $ng-yellow !important;
+}
+
+.bg-orange {
+  background-color: $ng-orange !important;
+}
+
+.bg-blue {
+  background-color: $ng-blue !important;
+}
+
+.bg-green {
+  background-color: $ng-green !important;
+}
+
+.bg-gray {
+  background-color: $ng-gray !important;
+}
+
+.bg-red {
+  background-color: $ng-red !important;
+}
+
+.purple {
+  color: $ng-purple !important;
+}
+
+.yellow {
+  color: $ng-yellow !important;
+}
+
+.orange {
+  color: $ng-orange !important;
+}
+
+.blue {
+  color: $ng-blue !important;
+}
+
+.green {
+  color: $ng-green !important;
+}
+
+.gray {
+  color: $ng-gray !important;
+}
+
+.red {
+  color: $ng-red !important;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="$$$ --------------- Main Page Not Found">
+.ng-pnf.page-wrapper {
+  background-color: $ng-white !important;
+}
+
+.ng-pnf.page-wrapper .page-content a {
+  background-color: $ng-main-dark-gray;
+  color: $ng-white;
+}
+.ng-logo-layout{
+  background-color: $ng-main-orange;
+}
+//</editor-fold>
