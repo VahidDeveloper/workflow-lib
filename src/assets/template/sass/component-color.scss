@@ -1,0 +1,217 @@
+$ng-main-orange: #EF5927;
+$ng-main-dark-gray: #2C2C2C;
+$ng-main-dark-gray2: #1F1F1F;
+$ng-main-gray: #5E5E5E;
+$ng-main-light-gray: #CACCCC;
+$ng-white: #FFFFFF;
+$ng-bg-1: #F3F3F3;
+$ng-bg-2: #ECEEEC;
+$ng-bg-3: #CFD1D7;
+$ng-h-orange-2: #F37C57;
+$ng-menu-icon-orange: rgba(239, 89, 39, 0.7);
+$ng-h-gray: #5E5E5E;
+$ng-h-blue: #284C95;
+$ng-sidebar-icon: #656565;
+$ng-toast-error: #ee5253;
+$ng-toast-error-validation: #F0696A;
+$ng-toast-success: #10ac84;
+$ng-toast-info: #54a0ff;
+$ng-toast-warning: #FFD26D;
+$ng-form-group-title-bg: #DCDCDC;
+$ng-danger-bg: #F7D7DA;
+$ng-warning-bg: #FFF3CD;
+$ng-info-bg: #C2E1FF;
+$ng-success-bg: #D4EDDA;
+$ng-form-group-title--focused-bg: #B5B5B5;
+$ng-form-control-border: rgba(0, 0, 0, 0.2);
+$ng-validation-error: #EB4828;
+
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Kendo Toggle Button ">
+.k-toolbar .k-button.k-state-active {
+  background-color: #F2B13C;
+  color: #fff;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Kendo - Common">
+.k-autocomplete, .k-flatcolorpicker .k-color-value,
+.k-combobox .k-dropdown-wrap, .k-datepicker .k-picker-wrap,
+.k-timepicker .k-picker-wrap, .k-datetimepicker .k-picker-wrap, .k-dateinput .k-dateinput-wrap,
+.k-textbox, .k-textarea, .k-input.k-textbox, .k-multiselect-wrap, .k-numerictextbox .k-numeric-wrap {
+  border-color: $ng-form-control-border;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Kendo PanelBar - Form-Group">
+.ng-form-group.k-panelbar > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar > .k-item > .k-link {
+  background-color: $ng-form-group-title-bg;
+  color: $ng-h-gray;
+}
+
+.ng-form-group.k-panelbar > .k-item > .k-link .k-icon {
+  color: $ng-h-orange-2;
+}
+
+.ng-form-group.k-panelbar > .k-item > .k-header.k-state-focused {
+  background-color: $ng-form-group-title--focused-bg;
+}
+
+
+.ng-toast-item-panelBar.k-panelbar > .k-item > .k-link{
+  color: $ng-main-dark-gray2;
+}
+.ng-toast-item-panelBar.k-panelbar > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar > .k-item > .k-link {
+  background-color: $ng-form-group-title-bg;
+  color: $ng-main-dark-gray2;
+}
+
+.ng-toast-item-panelBar.k-panelbar > .k-item > .k-link .k-icon {
+  color: $ng-h-gray;
+}
+
+.ng-toast-item-panelBar.k-panelbar > .k-item > .k-header.k-state-focused {
+  background-color: $ng-form-group-title--focused-bg;
+}
+
+/*<editor-fold desc="*** --- Set Style from Type">*/
+.ng-form-group.k-panelbar.danger > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar.danger > .k-item > .k-link {
+  background-color: $ng-danger-bg;
+  color: $ng-h-gray;
+}
+
+.ng-form-group.k-panelbar.warning > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar.warning > .k-item > .k-link {
+  background-color: $ng-warning-bg;
+  color: $ng-h-gray;
+}
+
+.ng-form-group.k-panelbar.info > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar.info > .k-item > .k-link {
+  background-color: $ng-info-bg;
+  color: $ng-h-gray;
+}
+
+.ng-form-group.k-panelbar.success > .k-item > .k-link.k-state-selected, .ng-form-group.k-panelbar.success > .k-item > .k-link {
+  background-color: $ng-success-bg;
+  color: $ng-h-gray;
+}
+
+.ng-form-group.k-panelbar.danger > .k-item > .k-link .k-icon,
+.ng-form-group.k-panelbar.warning > .k-item > .k-link .k-icon,
+.ng-form-group.k-panelbar.info > .k-item > .k-link .k-icon,
+.ng-form-group.k-panelbar.success > .k-item > .k-link .k-icon {
+  color: $ng-white;
+}
+
+/*</editor-fold>*/
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Kendo Window , ng Window">
+.ng-window .k-window-titlebar, .ng-window .k-window-content {
+  color: $ng-white;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Toast">
+.ng-window.ng-toast-error .k-window-titlebar, .ng-window.ng-toast-error .k-window-content {
+  background-color: $ng-toast-error;
+}
+
+.ng-window.ng-toast-validation .k-window-titlebar, .ng-window.ng-toast-validation .k-window-content {
+  background-color: $ng-toast-error-validation;
+}
+
+.ng-window.ng-toast-success .k-window-titlebar, .ng-window.ng-toast-success .k-window-content {
+  background-color: $ng-toast-success;
+}
+
+.ng-window.ng-toast-info .k-window-titlebar, .ng-window.ng-toast-info .k-window-content {
+  background-color: $ng-toast-info;
+}
+
+.ng-window.ng-toast-warning .k-window-titlebar, .ng-window.ng-toast-warning .k-window-content {
+  background-color: $ng-toast-warning;
+}
+
+//</editor-fold>
+
+textarea.ng-invalid,
+input.ng-invalid,
+ng-persian-input.ng-invalid input, ng-english-input.ng-invalid input,
+input.ng-invalid:hover, ng-persian-input.ng-invalid input:hover,
+ng-english-input.ng-invalid input:hover ,
+input.ng-invalid:focus, ng-persian-input.ng-invalid input:focus,
+ng-english-input.ng-invalid input:focus , .k-dropdown.ng-invalid .k-dropdown-wrap, ng-date-picker.ng-invalid input{
+  border-right: 2px solid $ng-validation-error;
+}
+
+.required-symbol {
+  color: $ng-validation-error;
+}
+
+.invalidPersianInput {
+  border-color: $ng-h-orange-2 !important;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ Bread Crumb">
+.ng-bread-crumb ul li a {
+  color: $ng-h-gray;
+}
+
+.ng-bread-crumb ul li a:hover {
+  color: $ng-main-orange;
+}
+
+//</editor-fold>
+
+//<editor-fold desc="@@@ ============ User Status">
+.ng-user-panel {
+  background-color: #fff;
+  border-color: #eaeaea;
+}
+
+.ng-user-panel .ng-user-panel-header {
+  background-color: #3A3A3A;
+  color: #fff;
+}
+
+.ng-user-panel .ng-user-panel-header:before {
+  color: #3A3A3A;
+}
+
+.ng-user-panel .ng-user-panel-header .avatar {
+  border: 1px solid #eaeaea;
+}
+
+.ng-user-panel .ng-user-panel-menu ul li a {
+  color: #000;
+}
+
+.ng-user-panel .ng-user-panel-menu ul li a:before {
+  color: #A4340B;
+}
+
+.ng-user-panel .ng-user-panel-menu ul li a:hover {
+  color: #F15821;
+}
+.k-switch-on .k-switch-container, .k-switch-off.k-state-hover .k-switch-container{
+  &:hover{
+    background-color: $ng-toast-success;
+  }
+    background-color: $ng-toast-success;
+}
+
+.k-switch-off .k-switch-container, .k-switch-off.k-state-hover .k-switch-container{
+  &:hover{
+    background-color: $ng-main-orange;
+  }
+    background-color: $ng-main-orange;
+}
+//</editor-fold>

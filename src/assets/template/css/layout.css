@@ -1,0 +1,458 @@
+/*<editor-fold desc="###---------- Persian Fonts">*/
+
+@font-face {
+  font-family: IRANSansNum;
+  src: url('../fonts/IRANSansWeb(FaNum).eot');
+  src: url('../fonts/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+  url('../fonts/IRANSansWeb(FaNum).woff') format('woff'), 
+  url('../fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+  font-weight: normal;
+  font-style: all;
+  unicode-range: U+30-39;
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/IRANSansWeb_Bold.woff') format('woff');
+  /* All Major Browsers */
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/IRANSansWeb_Medium.woff') format('woff');
+  /* All Major Browsers */
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/IRANSansWeb_Light.woff') format('woff');
+  /* All Major Browsers */
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/IRANSansWeb_UltraLight.woff') format('woff');
+  /* All Major Browsers */
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/IRANSansWeb.woff') format('woff');
+  /* All Major Browsers */
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+label,
+div {
+  font-family: IRANSans !important;
+  font-display: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 200 !important;
+  overflow-x: hidden;
+}
+
+
+
+.k-icon .k-i-close {
+  font-family: WebComponentsIcons !important;
+}
+
+.number-font {
+  font-family: yekan, IRANSans, tahoma;
+}
+
+
+/* .ng-login-area-wrapper {
+  background-color: #5e5e5e;
+  height: 100vh;
+}
+
+.ng-layout {
+  transform: translate(0, 50%);
+  display: flex;
+  width: 60%;
+  margin: auto;
+} */
+
+
+
+/* start login-area styles */
+
+.ng-login-area-wrapper {
+  background-color: #5e5e5e;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;*/
+} 
+
+.ng-layout {
+  display: flex;
+  width: 60%;
+  margin: 9% auto;
+}
+
+.ng-login-layout {
+  float: right;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+}
+
+.ng-login-wrapper {
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+}
+
+.ng-logo-layout {
+  float: left;
+  width: 50%;
+  border-radius: 20px 0 0 20px;
+}
+
+.ng-logo-img {
+  width: 21%;
+  margin: auto;
+}
+
+.ng-logo-img img {
+  width: 80px;
+}
+
+.ng-layout-title {
+  color: white !important;
+  text-align: center;
+}
+
+.ng-layout-desc p {
+  color: #fff !important;
+  font-size: 10pt;
+}
+
+.ng-layout-desc ul {
+  color: #fff !important;
+  font-size: 10pt;
+}
+
+.ng-layout-desc ul li {
+  color: #fff !important;
+}
+
+/* end login-area styles */
+
+ng-portal-user-area-header {
+  width: 100%;
+}
+
+.ng-brand {
+  width: 16rem;
+  float: right;
+}
+
+
+.ng-page-header {
+  display: flex;
+  width: calc(100% - 16rem);
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #e4e4e4;
+}
+
+.ng-page-title {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.ng-page-title h3 {
+  font-size: 12pt !important;
+  margin-bottom: 0 !important;
+}
+
+.ng-page-header.ng-sidebar-hide {
+  right: 65px;
+}
+
+ng-portal-user-area-status {
+  display: flex;
+  flex-direction: row;
+  direction: ltr;
+  padding: 5px 5px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.ng-bread-crumb {
+  padding-top: 5px;
+}
+
+.ng-bread-crumb ul {
+  padding-right: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+.ng-header-toggle {
+  position: absolute;
+
+  right: 20px;
+  top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.k-window {
+  position: fixed !important;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.sk-folding-cube {
+  margin: 15% auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EF5826;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-foldCubeAngle {
+
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="###---------- ScrollBar Style">*/
+
+/* width */
+
+/*</editor-fold>*/
+
+/*<editor-fold desc="###---------- Responsive design">*/
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (max-width: 576px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (max-width: 768px) {
+
+  .ng-login-logo,
+  .ng-login-logo-div {
+    display: none;
+  }
+
+  .s-login-form {
+    display: block;
+  }
+
+  .ng-login-layout {
+    background: none;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (max-width: 992px) {
+
+  .ng-page-sidebar,
+  .ng-page-sidebar.ng-sidebar-hide {
+    width: 0px !important;
+  }
+
+  .ng-page-sidebar.ng-sidebar-hide .ng-side-search-hide {
+    display: none;
+  }
+
+  .ng-page-sidebar .ng-brand,
+  .ng-page-sidebar .ng-side-menu,
+  .ng-page-sidebar .ng-side-search,
+  .ng-page-sidebar .ng-side-search-hide {
+    display: none;
+  }
+
+  .ng-page-content-wrapper,
+  .ng-page-content-wrapper.ng-sidebar-hide {
+    padding-right: 0px;
+  }
+
+  .ng-page-header,
+  .ng-page-header.ng-sidebar-hide {
+    right: 0;
+  }
+
+  .ng-page-footer,
+  .ng-page-footer.ng-sidebar-hide {
+    right: 0;
+  }
+
+  .ng-page-header .ng-header-toggle {
+    display: block;
+  }
+
+  .ng-page-sidebar .toggle-bar {
+    display: none !important;
+  }
+
+  .ng-page-sidebar .toggle-bar-responsive {
+    display: block !important;
+  }
+
+  .ng-page-panel {
+    right: 10px !important;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (max-width: 1200px) {}
+
+/*</editor-fold>*/
